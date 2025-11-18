@@ -5,7 +5,7 @@ for i in range(1,11):
     sum += number
     numbers.append(number)
 
-
+# pahirap sya
 
 # for Odd and Even
 ev = []
@@ -90,3 +90,4 @@ print(f"\nMaximum number: {min(numbers)}")
 
 # # Run the program
 # number_analyzer()
+
