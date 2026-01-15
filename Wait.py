@@ -1,6 +1,7 @@
 from celery import Celery
 from transformers import pipeline
 
+
 app = Celery('tasks', broker='redis://localhost:6379/0')
 sentiment_model = pipeline("sentiment-analysis")
 
