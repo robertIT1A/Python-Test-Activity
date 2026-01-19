@@ -4,6 +4,7 @@ anime_list = [] # empty list
 proceed = True   
 count = 1
 
+
 while proceed == True:
     print("\nResponse:\nC - Continue\nRv - Review Your List\nDel - Delete One Item on List\nDll - Delete all\nE - Exit")
     response = input("Do you want to list your anime: ")
@@ -23,3 +24,4 @@ while proceed == True:
         print("Will done! Here is your Anime List:")
         for i in anime_list:
             print(f"\t- {i}") 
+
