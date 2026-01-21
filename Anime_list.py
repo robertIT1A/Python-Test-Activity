@@ -25,3 +25,5 @@ while proceed == True:
         for i in anime_list:
             print(f"\t- {i}") 
 
+
+
