@@ -24,6 +24,3 @@ while proceed == True:
         print("Will done! Here is your Anime List:")
         for i in anime_list:
             print(f"\t- {i}") 
-
-
-
